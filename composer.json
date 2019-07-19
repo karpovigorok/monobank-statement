@@ -1,0 +1,13 @@
+{
+    "name": "karpovigorok/monobank-api",
+    "description": "Using Monobank API",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Igor Karpov",
+            "email": "igorok.karpov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
