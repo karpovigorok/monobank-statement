@@ -23,15 +23,14 @@
         <div class="row">
             <div class="col-md-8">
             <span class="text-muted">
-            <p>Виписка доступна виключно за посиланням.<br>
-                Виписка згенерована з використанням <a href="https://api.monobank.ua">api.monobank.ua</a></p>
-            <p>&copy; <?php echo date('Y');?> Зроблено в Україні. У разі знайдених неточностей звертайтесь за адресою
-                ika@noxls.net</p>
+            <p>Виписка генерується за унікальним посиланням, яке знаєте тільки ви, поширення посилання на виписку залишається на ваш розсуд.<br>
+                Виписка згенерована з використанням <a href="https://api.monobank.ua" target="_blank">api.monobank.ua</a>. Сайт не має відношення до засновників <a href="https://api.monobank.ua" target="_blank">Monobank</a></p>
+            <p>&copy; <?php echo date('Y');?> Зроблено в Україні. У разі знайдених неточностей звертайтесь за адресою ika@noxls.net</p>
         </span>
             </div>
             <div class="col-md-4">
             <span class="text-muted">
-                <a href="/">Головна</a> | <a href="https://github.com/karpovigorok/monobank-statement">GitHub</a> | <a href="https://send.monobank.com.ua/vKN2YZ25">Підтримати</a>
+                <a href="/">Головна</a> | <a href="https://github.com/karpovigorok/monobank-statement" target="_blank">GitHub</a> | <a href="https://send.monobank.com.ua/vKN2YZ25" target="_blank">Підтримати</a>
             </span>
             </div>
         </div>
