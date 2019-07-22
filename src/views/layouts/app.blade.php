@@ -26,7 +26,7 @@
             <p>Виписка доступна виключно за посиланням.<br>
                 Виписка згенерована з використанням <a href="https://api.monobank.ua">api.monobank.ua</a></p>
             <p>&copy; <?php echo date('Y');?> Зроблено в Україні. У разі знайдених неточностей звертайтесь за адресою
-                i@karpov.cc</p>
+                ika@noxls.net</p>
         </span>
             </div>
             <div class="col-md-4">
