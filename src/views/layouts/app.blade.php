@@ -23,8 +23,7 @@
         <div class="row">
             <div class="col-md-8">
             <span class="text-muted">
-            <p>Виписка генерується за унікальним посиланням, яке знаєте тільки ви, поширення посилання на виписку залишається на ваш розсуд.<br>
-                Виписка згенерована з використанням <a href="https://api.monobank.ua" target="_blank">api.monobank.ua</a>. Сайт не має відношення до засновників <a href="https://api.monobank.ua" target="_blank">Monobank</a></p>
+            <p>Виписка генерується за унікальним посиланням, яке знаєте тільки ви, поширення посилання на виписку залишається на ваш розсуд. Виписка згенерована з використанням <a href="https://api.monobank.ua" target="_blank">api.monobank.ua</a>. Сайт не має відношення до засновників <a href="https://api.monobank.ua" target="_blank">Monobank</a></p>
             <p>&copy; <?php echo date('Y');?> Зроблено в Україні. У разі знайдених неточностей звертайтесь за адресою ika@noxls.net</p>
         </span>
             </div>
