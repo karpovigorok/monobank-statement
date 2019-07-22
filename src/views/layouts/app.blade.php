@@ -31,7 +31,7 @@
             </div>
             <div class="col-md-4">
             <span class="text-muted">
-                <a href="/">Головна</a> | <a href="">GitHub</a> | <a href="https://send.monobank.com.ua/vKN2YZ25">Підтримати</a>
+                <a href="/">Головна</a> | <a href="https://github.com/karpovigorok/monobank-statement">GitHub</a> | <a href="https://send.monobank.com.ua/vKN2YZ25">Підтримати</a>
             </span>
             </div>
         </div>
