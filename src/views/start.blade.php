@@ -44,7 +44,6 @@
         <button class="btn btn-lg btn-primary btn-block" type="submit">Отримати</button>
         <a href="/forget_xtoken" class="btn btn-lg btn-danger btn-block" type="button">Забути мій токен</a>
     </form>
-</main>
 <script>
     $(function () {
         var start = moment().subtract(1, 'days');
