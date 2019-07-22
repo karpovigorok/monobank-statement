@@ -1,9 +1,9 @@
 <?php
 
-namespace Karpovigorok\MonobankAPI\Controllers;
+namespace Karpovigorok\MonobankStatement\Controllers;
 
 use App\Http\Controllers\Controller;
-use Karpovigorok\MonobankAPI\Models\Statement;
+use Karpovigorok\MonobankStatement\Models\Statement;
 use Monobank\Monobank as Monobank;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
@@ -23,7 +23,7 @@ class MainpageController extends Controller
         if ($request->session()->exists('x_token')) {
             return redirect('/start');
         }
-        return view('MonobankAPI::index');
+        return view('MonobankStatement::index');
 
     }
 
@@ -75,7 +75,7 @@ class MainpageController extends Controller
                 'currency' => $iso4217->getByNumeric($account->currencyCode()),
             );
         }
-        return view('MonobankAPI::start', $data);
+        return view('MonobankStatement::start', $data);
     }
 
     public function process_statement(Request $request) {
@@ -148,7 +148,7 @@ class MainpageController extends Controller
         $data['iso4217'] = new \Alcohol\ISO4217();
         $statement = Statement::where('uid', '=', $uid)->firstOrFail();
         $data['statement'] = json_decode($statement->statement);
-        return view('MonobankAPI::statement', $data);
+        return view('MonobankStatement::statement', $data);
     }
 
     public function forget_xtoken(Request $request) {

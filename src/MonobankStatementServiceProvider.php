@@ -1,8 +1,8 @@
 <?php
-namespace Karpovigorok\MonobankAPI;
+namespace Karpovigorok\MonobankStatement;
 use Illuminate\Support\ServiceProvider;
 
-class MonobankAPIServiceProvider extends ServiceProvider
+class MonobankStatementServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -26,7 +26,7 @@ class MonobankAPIServiceProvider extends ServiceProvider
             throw new \Exception('Specified view directory ' . $view_path . ' doesn\'t exists.');
         }
         //var_dump();
-        $this->loadViewsFrom($view_path, 'MonobankAPI');
+        $this->loadViewsFrom($view_path, 'MonobankStatement');
     }
 
     /**
@@ -40,7 +40,7 @@ class MonobankAPIServiceProvider extends ServiceProvider
             __DIR__.'/config/config.php', 'monobank'
         );
 
-        $this->app->make('Karpovigorok\MonobankAPI\Controllers\MainpageController');
+        $this->app->make('Karpovigorok\MonobankStatement\Controllers\MainpageController');
 
     }
 }

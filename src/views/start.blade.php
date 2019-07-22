@@ -1,4 +1,4 @@
-@extends('MonobankAPI::layouts.app')
+@extends('MonobankStatement::layouts.app')
 @section('title', 'Отримати')
 @section('head_scripts')
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>

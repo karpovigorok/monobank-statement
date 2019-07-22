@@ -1,4 +1,4 @@
-@extends('MonobankAPI::layouts.app')
+@extends('MonobankStatement::layouts.app')
 @section('title', 'Сформувати виписку Monobank')
 @section('content')
     <form class="form-signin" action="/check_token" method="post">

@@ -1,4 +1,4 @@
-@extends('MonobankAPI::layouts.app')
+@extends('MonobankStatement::layouts.app')
 
 @section('title', "Виписка клієнта $statement->person_name | monobank | Universal Bank")
 

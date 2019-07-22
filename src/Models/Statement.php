@@ -1,6 +1,6 @@
 <?php
 
-namespace Karpovigorok\MonobankAPI\Models;
+namespace Karpovigorok\MonobankStatement\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

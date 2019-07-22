@@ -1,6 +1,6 @@
 {
-    "name": "karpovigorok/monobank-api",
-    "description": "Using Monobank API",
+    "name": "karpovigorok/monobank-statement",
+    "description": "Package allow to get Statement based on Monobank API",
     "type": "project",
     "authors": [
         {
