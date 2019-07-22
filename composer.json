@@ -16,5 +16,10 @@
       "ext-curl": "*",
       "iillexial/php-monobank-api": "v0.2.*",
       "alcohol/iso4217": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Karpovigorok\\": "."
+      }
     }
 }
