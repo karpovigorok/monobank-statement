@@ -17,8 +17,6 @@ This code using on website https://www.fintechband.com.ua
 
 ## How To
 
-`
-composer require karpovigorok/monobank-statement
-php artisan vendor:publish
-php artisan migrate
-`
+`composer require karpovigorok/monobank-statement`
+`php artisan vendor:publish`
+`php artisan migrate`
